@@ -1,0 +1,77 @@
+
+body {
+
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+    #header {
+        height: 100px;
+        outline: 3px solid pink;
+        border: none;
+
+    }
+
+    #left{
+        height: 400px;
+        width: 20%;
+        background-color: yellow;
+    }
+
+    #centre{
+
+        display: flex;
+    }
+
+    #right{
+        width: 80%;
+        height: 400px;
+        background-color: blue;
+
+    }
+
+    #footer {
+        height: 80px;
+        background-color: green;
+
+    }
+
+    #wrap{
+        margin: 0 auto ;
+outline: 2px dotted black;
+        width: 80%;
+        padding: 10px;
+    }
+
+    /* break point for tablet - 1000px */
+
+    @media only screen and (max-width: 1000px)  {
+
+        body {
+
+            background-color: violet;
+        }
+        
+        #centre{
+
+            flex-direction: column;
+
+        }
+
+        #left, #right {
+
+            width: 100%;
+        }
+
+
+
+    }
+
+
+
+
+
+
+
+
+

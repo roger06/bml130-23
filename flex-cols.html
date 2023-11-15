@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+
+    #container{
+        display: flex;
+    }
+
+    #container > * {
+        border: 1px white solid;
+        flex: 1 0 0 ;
+
+        /* flex-grow: ;
+        flex-shrink: ;
+        flex-basis: ; */
+    }
+    @media only screen and (width <=1000px)  {
+
+   
+        
+        body {
+
+            /* background-color: blue; */
+        }
+        #container{
+            flex-direction: column;
+            gap:50px;
+        }
+    }
+
+
+    </style>
+</head>
+<body>
+<div id="container">
+    
+    <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus accusamus alias eius non ratione architecto optio illum, consequatur culpa odit omnis neque ipsam aliquam cum  itaque veniam incidunt? In vitae, quasi repudiandae unde error sunt vel tenetur fugiat minus, accusamus voluptas veniam, sapiente inventore.</p>
+    <div>i am a grandchild</div>
+    
+    </div>
+    <div><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum et corporis reprehenderit repudiandae, vel cumque.</p></div>
+    <div><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta molestias earum sed fuga nam dolore!</p></div><div><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta molestias earum sed fuga nam dolore!</p></div>
+    
+</div>
+
+
+</body>
+</html>
+
+
+
+
+
